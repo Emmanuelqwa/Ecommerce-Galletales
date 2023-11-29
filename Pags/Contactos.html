@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Conocenos</title>
+        <!-- <link rel="stylesheet" href="assets/css/estilos.css">-->
+        <link rel="stylesheet" href="../assets/css/estilos.css">
+        <script src="https://kit.fontawesome.com/ac03c1351f.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <header>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Conocenos</title>
+            <!-- <link rel="stylesheet" href="assets/css/estilos.css">-->
+            <link rel="stylesheet" href="../assets/css/estilos.css">
+            <script src="https://kit.fontawesome.com/ac03c1351f.js" crossorigin="anonymous"></script>
+            <div class="container__header">
+                <div class="logo">
+                    <a href="#"></a>
+                    <img src="../assets/images/Logo/logo.png" alt="">
+                </div>
+                <div class="menu">
+                    <nav>
+                        <ul>
+                            <li><a href="../index.html">Principal</a></li>
+                            <li><a href="../Pags/historia.html">Historia</a></li>
+                            <li><a href="../Pags/Catalogo.html">Catálogo</a></li>
+                            <li><a href="../Pags/Compra.html">Oferta</a></li>
+                        </ul>
+                    </nav>
+                    <a href="../Pags/Compra.html" class="btn__quote">Compra</a>
+                </div>
+            </div>
+        </header>
+        <main>
+            <!--INICIO-->
+            <!--Portada de inicio-->
+            <div class="container__contactos div__offset">
+                <div class="cover">
+                    <section class="text__contactos">
+                        <h1> Conocenos</h1>
+                        <p>
+                            Galletales es una empresa 100% mexicana dedicada a la creación de muñecos crochet,
+                            respaldada por más de 200 clientes y 12 años existente en el mercado.
+                        </p>
+                        <h2> Ubicación de tienda fisica</h2>
+                        <section class="text_mapa">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d312.184821844778!2d-99.66073106188462!3d19.28925513732919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cd890b61790df5%3A0x29aa477e3ee82b2d!2sBizonte%20Lab!5e0!3m2!1ses-419!2smx!4v1688965881005!5m2!1ses-419!2smx"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </section>
+
+
+
+                    </section>
+                    <section class="image__contactos">
+                        <img src="../assets/images/Historia/imagen2.png" alt="">
+                    </section>
+                    <script>
+                        window.addEventListener('mouseover', initLandbot, { once: true });
+                        window.addEventListener('touchstart', initLandbot, { once: true });
+                        var myLandbot;
+                        function initLandbot() {
+                            if (!myLandbot) {
+                                var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+                                s.addEventListener('load', function () {
+                                    var myLandbot = new Landbot.Livechat({
+                                        configUrl: 'https://storage.googleapis.com/landbot.online/v3/H-1655456-JZNTRGA0KCIFV8KF/index.json',
+                                    });
+                                });
+                                s.src = 'https://cdn.landbot.io/landbot-3/landbot-3.0.0.js';
+                                var x = document.getElementsByTagName('script')[0];
+                                x.parentNode.insertBefore(s, x);
+                            }
+                        }
+                    </script>
+                    <section class="image__contactos">
+                        <img src="../assets/images/Historia/imagen2.png" alt="">
+                    </section>
+                </div>
+            </div>
+
+            <div class="container__redes div__offset">
+                <section class="text__redes">
+                    <h3> Redes sociales</h3>
+                    <p>
+                    <div class="socialMedia">
+                        <a href="https://www.facebook.com/profile.php?id=100094759530455&mibextid=ZbWKwL">
+                            <img src="../assets/images/Social Media/facebook.png" alt="">
+                        </a>
+                        <a href="https://www.instagram.com/galletales/">
+                            <img src="../assets/images/Social Media/instagram.png" alt="">
+                        </a>
+                        <a href="https://twitter.com/GalletaLess">
+                            <img src="../assets/images/Social Media/twitter.png" alt="">
+                        </a>
+                    </div>
+                    </p>
+                </section>
+                <section class="image__contactos">
+                    <img src="../assets/images/Historia/imagen2.png" alt="">
+                </section>
+            </div>
+        </main>
+    </body>
+
+</html>
